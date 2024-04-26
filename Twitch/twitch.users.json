@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "6626979c5850494697535aca"
+  },
+  "email": "dmax2019181@kinal.edu.gt",
+  "username": "Dulce",
+  "password": "$2a$10$nLHw0IS4bE2OynLtltJPluaLxrL29Mhc6Jbs1sD.CnghMVuB7Eqf2",
+  "channel": {
+    "$oid": "6626979c5850494697535ac8"
+  },
+  "followedChannels": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66269979ae19e03d1459e23a"
+  },
+  "email": "amax2019181@kinal.edu.gt",
+  "username": "Alejandro Max",
+  "password": "$2a$10$mb../QN1A79SQnFyGcLcFOjLK7ITudyJ73gWsfZDpql.2D6FzvHXa",
+  "channel": {
+    "$oid": "66269979ae19e03d1459e238"
+  },
+  "followedChannels": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66269982ae19e03d1459e23f"
+  },
+  "email": "bmax2019181@kinal.edu.gt",
+  "username": "Benjamin Max",
+  "password": "$2a$10$in19syawTu.KQzO3ehKgKeCaHHYluAEMycLyiNihdXj2VyxlIRfyG",
+  "channel": {
+    "$oid": "66269982ae19e03d1459e23d"
+  },
+  "followedChannels": [],
+  "__v": 0
+}]

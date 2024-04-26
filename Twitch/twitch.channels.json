@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "6626979c5850494697535ac8"
+  },
+  "isActive": true,
+  "title": "Dulce´s channel",
+  "description": "Hello everyone this my channel",
+  "avatarUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvcx3UeZnSdxPQrYCQlBijVEnI9CaBPqFdw9T3wpCT1Q&s",
+  "messages": [],
+  "streamKey": "b924728e-54a2-42f1-b964-d0c0335dc301",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66269979ae19e03d1459e238"
+  },
+  "isActive": true,
+  "title": "New Channel",
+  "description": "This is a new channel",
+  "avatarUrl": "none",
+  "messages": [],
+  "streamKey": "f6cce4aa-1d96-4c7c-9c70-ac89b9f0f72a",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66269982ae19e03d1459e23d"
+  },
+  "isActive": true,
+  "title": "New Channel",
+  "description": "This is a new channel",
+  "avatarUrl": "none",
+  "messages": [],
+  "streamKey": "47aade59-4096-4feb-8d05-5c094bb3364a",
+  "__v": 0
+}]

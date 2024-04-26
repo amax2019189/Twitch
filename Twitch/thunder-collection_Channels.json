@@ -1,0 +1,147 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Channels",
+    "collectionId": "e792bbd3-6059-4487-9a09-482e2523775f",
+    "dateExported": "2024-04-22T17:52:30.022Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cf1b9352-83dd-4f51-9a30-ca836d5ab610",
+            "colId": "e792bbd3-6059-4487-9a09-482e2523775f",
+            "containerId": "",
+            "name": "Find channel by id",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels/661d2e937194e97fe5d4ee3f",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-04-15T14:10:12.684Z",
+            "modified": "2024-04-15T14:12:34.586Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dd37955a-ff97-453a-be9b-4ab822194d49",
+            "colId": "e792bbd3-6059-4487-9a09-482e2523775f",
+            "containerId": "",
+            "name": "List channel",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-04-15T14:16:10.355Z",
+            "modified": "2024-04-15T14:16:19.305Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f2b57904-640c-4a2e-98a6-8ddc31bf6419",
+            "colId": "e792bbd3-6059-4487-9a09-482e2523775f",
+            "containerId": "",
+            "name": "Find my channel",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/channel",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-04-15T14:16:53.007Z",
+            "modified": "2024-04-15T14:22:42.613Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmU5MzcxOTRlOTdmZTVkNGVlNDEiLCJlbWFpbCI6ImFtYXgyMDE5MTg5QGtpbmFsLmVkdS5ndCIsImlhdCI6MTcxMzE5MDE4MywiZXhwIjoxNzEzMjE4OTgzfQ.uae-RR-oWvWSL8-0WPHI0Axs1ZRBA16OzBP8s8O5F9w"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "59d68729-b991-4f2d-bdbc-09761dc783f4",
+            "colId": "e792bbd3-6059-4487-9a09-482e2523775f",
+            "containerId": "",
+            "name": "Follow Channel",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels/follow",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-04-15T14:23:37.949Z",
+            "modified": "2024-04-15T14:24:45.832Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmU5MzcxOTRlOTdmZTVkNGVlNDEiLCJlbWFpbCI6ImFtYXgyMDE5MTg5QGtpbmFsLmVkdS5ndCIsImlhdCI6MTcxMzE5MDE4MywiZXhwIjoxNzEzMjE4OTgzfQ.uae-RR-oWvWSL8-0WPHI0Axs1ZRBA16OzBP8s8O5F9w"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"channelId\": \"661d2e937194e97fe5d4ee3f\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8e9ae07-297d-499f-97d7-9ff3e4a7614a",
+            "colId": "e792bbd3-6059-4487-9a09-482e2523775f",
+            "containerId": "",
+            "name": "List followed channels",
+            "url": "http://127.0.0.1:8080/twitch/v1/channels/followed",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-04-15T14:29:13.547Z",
+            "modified": "2024-04-15T14:29:54.492Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmU5MzcxOTRlOTdmZTVkNGVlNDEiLCJlbWFpbCI6ImFtYXgyMDE5MTg5QGtpbmFsLmVkdS5ndCIsImlhdCI6MTcxMzE5MDE4MywiZXhwIjoxNzEzMjE4OTgzfQ.uae-RR-oWvWSL8-0WPHI0Axs1ZRBA16OzBP8s8O5F9w"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "025ccf37-7ae8-4ef4-8a6f-23615b05445c",
+            "colId": "e792bbd3-6059-4487-9a09-482e2523775f",
+            "containerId": "",
+            "name": "Update setting channel",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/channel",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2024-04-15T14:30:45.210Z",
+            "modified": "2024-04-22T17:05:49.225Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjI2OTc5YzU4NTA0OTQ2OTc1MzVhY2EiLCJlbWFpbCI6ImRtYXgyMDE5MTgxQGtpbmFsLmVkdS5ndCIsImlhdCI6MTcxMzgwNTQ3MCwiZXhwIjoxNzEzODM0MjcwfQ.5iWLuV48QGV8mFMk0qiH1tIz5KkogiQlL5IOLKsUb4I"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Dulce\",\n  \"title\": \"Dulce´s channel\",\n  \"description\": \"Hello everyone this my channel\",\n  \"avatarUrl\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvcx3UeZnSdxPQrYCQlBijVEnI9CaBPqFdw9T3wpCT1Q&s\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "57a53162-a75e-4b9f-82ce-7d1a7230f04a",
+            "colId": "e792bbd3-6059-4487-9a09-482e2523775f",
+            "containerId": "",
+            "name": "Change Password",
+            "url": "http://127.0.0.1:8080/twitch/v1/settings/password",
+            "method": "PATCH",
+            "sortNum": 100000,
+            "created": "2024-04-15T14:40:17.476Z",
+            "modified": "2024-04-15T14:41:46.394Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NjFkMmU5MzcxOTRlOTdmZTVkNGVlNDEiLCJlbWFpbCI6ImFtYXgyMDE5MTg5QGtpbmFsLmVkdS5ndCIsImlhdCI6MTcxMzE5MDE4MywiZXhwIjoxNzEzMjE4OTgzfQ.uae-RR-oWvWSL8-0WPHI0Axs1ZRBA16OzBP8s8O5F9w"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"123456\",\n  \"newPassword\": \"HelloWorld\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ],
+    "ref": "SIZJIgnMTVHumrAZ2uT-r9aTobT-Pog7-LL2_pWq8i4DbHR29aKLK9zpVBQ1u08N0L1Ul9ufh4w8Ogx3giTJfA"
+}
